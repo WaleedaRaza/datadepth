@@ -1,0 +1,11 @@
+cat > .pre-commit-config.yaml <<'EOF'
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.3.0
+    hooks: [ id: black ]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.4
+    hooks: [ id: ruff ]
+EOF
+
+pre-commit install          # enables the hook

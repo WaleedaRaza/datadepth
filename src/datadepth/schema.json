@@ -1,0 +1,88 @@
+{
+  "columns": {
+    "Price": {
+      "type": "categorical",
+      "unique": 1699,
+      "sample_values": [
+        "Ticker",
+        "Date",
+        "2018-01-02",
+        "2018-01-03",
+        "2018-01-04"
+      ]
+    },
+    "Adj Close": {
+      "type": "categorical",
+      "unique": 1686,
+      "sample_values": [
+        "NVDA",
+        "4.929879665374756",
+        "5.254334926605225",
+        "5.2820329666137695",
+        "5.326793670654297"
+      ],
+      "nullable": true
+    },
+    "Close": {
+      "type": "categorical",
+      "unique": 1675,
+      "sample_values": [
+        "NVDA",
+        "4.983749866485596",
+        "5.3117499351501465",
+        "5.339749813079834",
+        "5.385000228881836"
+      ],
+      "nullable": true
+    },
+    "High": {
+      "type": "categorical",
+      "unique": 1663,
+      "sample_values": [
+        "NVDA",
+        "4.987500190734863",
+        "5.34250020980835",
+        "5.451250076293945",
+        "5.422749996185303"
+      ],
+      "nullable": true
+    },
+    "Low": {
+      "type": "categorical",
+      "unique": 1673,
+      "sample_values": [
+        "NVDA",
+        "4.862500190734863",
+        "5.09375",
+        "5.317249774932861",
+        "5.2769999504089355"
+      ],
+      "nullable": true
+    },
+    "Open": {
+      "type": "categorical",
+      "unique": 1663,
+      "sample_values": [
+        "NVDA",
+        "4.894499778747559",
+        "5.102499961853027",
+        "5.394000053405762",
+        "5.354750156402588"
+      ],
+      "nullable": true
+    },
+    "Volume": {
+      "type": "categorical",
+      "unique": 1696,
+      "sample_values": [
+        "NVDA",
+        "355616000",
+        "914704000",
+        "583268000",
+        "580124000"
+      ],
+      "nullable": true
+    }
+  },
+  "rows_scanned": 1699
+}
