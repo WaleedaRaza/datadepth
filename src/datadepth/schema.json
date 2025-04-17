@@ -1,88 +1,131 @@
 {
-  "columns": {
-    "Price": {
+  "columns": [
+    {
+      "name": "col_0",
+      "type": "numeric",
+      "nullable": false,
+      "mean": 6432.586165341046,
+      "std": 3740.4278701774465,
+      "min": 1.0,
+      "max": 13200.0
+    },
+    {
+      "name": "col_1",
       "type": "categorical",
-      "unique": 1699,
+      "nullable": false,
+      "unique": 32,
       "sample_values": [
-        "Ticker",
-        "Date",
-        "2018-01-02",
-        "2018-01-03",
-        "2018-01-04"
+        [
+          "TomClancysRainbowSix",
+          0.03213625773278702
+        ],
+        [
+          "MaddenNFL",
+          0.03213625773278702
+        ],
+        [
+          "Microsoft",
+          0.03213625773278702
+        ],
+        [
+          "LeagueOfLegends",
+          0.03205591708845505
+        ],
+        [
+          "CallOfDuty",
+          0.03205591708845505
+        ],
+        [
+          "Verizon",
+          0.031895235799791116
+        ],
+        [
+          "CallOfDutyBlackopsColdWar",
+          0.03181489515545915
+        ],
+        [
+          "ApexLegends",
+          0.03181489515545915
+        ],
+        [
+          "Facebook",
+          0.03173455451112718
+        ],
+        [
+          "WorldOfCraft",
+          0.03165421386679521
+        ],
+        [
+          "Dota2",
+          0.03165421386679521
+        ],
+        [
+          "NBA2K",
+          0.03149353257813128
+        ],
+        [
+          "TomClancysGhostRecon",
+          0.03141319193379931
+        ],
+        [
+          "Battlefield",
+          0.03141319193379931
+        ],
+        [
+          "FIFA",
+          0.03133285128946734
+        ],
+        [
+          "Xbox(Xseries)",
+          0.03125251064513537
+        ],
+        [
+          "Overwatch",
+          0.03125251064513537
+        ],
+        [
+          "johnson&johnson",
+          0.031172170000803405
+        ],
+        [
+          "Amazon",
+          0.031011488712139473
+        ],
+        [
+          "PlayStation5(PS5)",
+          0.030931148067807505
+        ]
       ]
     },
-    "Adj Close": {
+    {
+      "name": "col_2",
       "type": "categorical",
-      "unique": 1686,
+      "nullable": false,
+      "unique": 4,
       "sample_values": [
-        "NVDA",
-        "4.929879665374756",
-        "5.254334926605225",
-        "5.2820329666137695",
-        "5.326793670654297"
-      ],
-      "nullable": true
+        [
+          "Negative",
+          0.30183980075520206
+        ],
+        [
+          "Positive",
+          0.2789427171205913
+        ],
+        [
+          "Neutral",
+          0.2452799871454969
+        ],
+        [
+          "Irrelevant",
+          0.17393749497870972
+        ]
+      ]
     },
-    "Close": {
-      "type": "categorical",
-      "unique": 1675,
-      "sample_values": [
-        "NVDA",
-        "4.983749866485596",
-        "5.3117499351501465",
-        "5.339749813079834",
-        "5.385000228881836"
-      ],
-      "nullable": true
-    },
-    "High": {
-      "type": "categorical",
-      "unique": 1663,
-      "sample_values": [
-        "NVDA",
-        "4.987500190734863",
-        "5.34250020980835",
-        "5.451250076293945",
-        "5.422749996185303"
-      ],
-      "nullable": true
-    },
-    "Low": {
-      "type": "categorical",
-      "unique": 1673,
-      "sample_values": [
-        "NVDA",
-        "4.862500190734863",
-        "5.09375",
-        "5.317249774932861",
-        "5.2769999504089355"
-      ],
-      "nullable": true
-    },
-    "Open": {
-      "type": "categorical",
-      "unique": 1663,
-      "sample_values": [
-        "NVDA",
-        "4.894499778747559",
-        "5.102499961853027",
-        "5.394000053405762",
-        "5.354750156402588"
-      ],
-      "nullable": true
-    },
-    "Volume": {
-      "type": "categorical",
-      "unique": 1696,
-      "sample_values": [
-        "NVDA",
-        "355616000",
-        "914704000",
-        "583268000",
-        "580124000"
-      ],
-      "nullable": true
+    {
+      "name": "col_3",
+      "type": "text",
+      "nullable": false
     }
-  },
-  "rows_scanned": 1699
+  ],
+  "num_rows": 74682
 }
